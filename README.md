@@ -1,7 +1,6 @@
 wordpress-mapbox
 ================
 
-bash: n: command not found
 A wordpress plugin for publishing mapbox maps
 
 ### Software Requirements ###
