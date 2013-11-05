@@ -1,0 +1,71 @@
+[
+    {
+        "id": "health",
+        "name": "Health",
+        "subcategories": [
+            {
+                "id": "subtheme1",
+                "name": "Life Expectancy",
+                "maps": {
+                    "name": "",
+                    "description": "dsfsdfsdfdsf",
+                    "publish": "single_layers",
+                    "basemaps": [{"name": "Glasgow Satellite", "id": "openglasgow.map-06ikok69"}, {"name": "Glasgow Terrain", "id": "openglasgow.map-r0zdpmh4"}, {"name": "Glasgow Streets", "id": "openglasgow.map-0hs8zhwi"}],
+                    "layers": [
+                        {
+                            "id": "openglasgow.gla-cp-mle",
+                            "name": "Male Life Expectancy"
+                        },
+                        {
+                            "id": "openglasgow.gla-cp-mle",
+                            "name": "Female Life Expectancy"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "subtheme2",
+                "name": "Coronary Heart Disease in Females",
+                "maps": {
+                    "description": "aaaaaa",
+                    "publish": "time_slider",
+                    "basemaps": [{"name": "Glasgow Satellite", "id": "openglasgow.map-06ikok69"}, {"name": "Glasgow Terrain", "id": "openglasgow.map-r0zdpmh4"}, {"name": "Glasgow Streets", "id": "openglasgow.map-0hs8zhwi"}],
+                    "layers": [
+                        {"name": 2002, "id": "openglasgow.gla-chdf2002"},
+                        {"name": 2003, "id": "openglasgow.gla-chdf03"},
+                        {"name": 2004, "id": "openglasgow.gla-chdf04"},
+                        {"name": 2005, "id": "openglasgow.gla-chdf05"},
+                        {"name": 2006, "id": "openglasgow.glachdf06"},
+                        {"name": 2007, "id": "openglasgow.gla-chdf07"},
+                        {"name": 2008, "id": "openglasgow.gla-chdf08"},
+                        {"name": 2009, "id": "openglasgow.gla-chdf09"},
+                        {"name": 2010, "id": "openglasgow.gla-chdf10"}
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "theme",
+        "name": "Theme",
+        "subcategories": [
+            {
+                "id": "subtheme3",
+                "name": "Subtheme",
+                "maps": {
+                    "name": "",
+                    "description": "dsfsdfsdfdsf",
+                    "publish": "single_layers",
+                    "basemaps": [{"name": "Glasgow Satellite", "id": "openglasgow.map-06ikok69"}, {"name": "Glasgow Terrain", "id": "openglasgow.map-r0zdpmh4"}, {"name": "Glasgow Streets", "id": "openglasgow.map-0hs8zhwi"}],
+                    "layers": [
+                        {
+                            "id": "openglasgow.map-jzel6u1m",
+                            "name": "Vacant & Derelict Land"
+                        }
+                    ]
+                }
+            }
+        ]
+            
+    }
+]
