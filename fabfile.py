@@ -9,7 +9,8 @@ def deploy():
     env.account = "/home/%s" % env.user
     env.base_dir = "%(account)s/%(path)s" % {'account': env.account, 'path': path}
     app = "mapbox_mapper"
-    run("if [ ! -d \"%(wdps_path)s/wp-content/plugins/%(app)s\"]; then mkdir %(wdps_path)s/wp-content/plugins/%(app)s; fi" % {'wdps_path':env.base_dir, 'app': app})
+    run("if [ ! -d \"%(wdps_path)s/wp-content/plugins/%(app)s\"]; then mkdir %(wdps_path)s/wp-content/plugins/%(app)s; fi"
+        % {'wdps_path':env.base_dir, 'app': app})
     put("%(dir)s" % { 'dir':app }, "%(wdps_path)s/wp-content/plugins" % { 'wdps_path':env.base_dir, 'app': app })
 
 
