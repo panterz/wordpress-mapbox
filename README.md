@@ -44,7 +44,7 @@ A Map belongs to a Subcategory that this subcategory belongs to a Category. More
 <li>jquery-timelinr</li>
 </ul>
 
-### Further deployment ###
+### Further development ###
 <ol>
 <li>Search functionality and filtering of the maps/layers on the admin panel</li>
 </li>Automating deployment of wordpress plugin for testing it fast</li>
